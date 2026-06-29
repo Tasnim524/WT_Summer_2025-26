@@ -1,0 +1,65 @@
+body{
+    font-family: Arial;
+    margin:18px;
+    
+}
+
+header{
+    background-color: lightblue;
+    text-align: center;
+    padding: 16px;
+
+}
+nav{
+    background-color: lightcyan;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a:hover{
+    color:blue
+}
+
+section{
+    margin-top: 16px;
+}
+
+table{
+    margin: auto;
+    border: 1px solid black;
+    padding: 22px;
+}
+
+td{
+    padding: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 200px;
+    padding: 12px;
+}
+
+input[type="radio"]{
+    width: auto;
+}
+ 
+input[type="submit"]{
+    padding: 8px 24px;
+    background-color: lightblue;
+    border:1px solid black;
+}
+
+input[type="submit"]:hover{
+    background-color: skyblue;
+
+}
+
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 18px;
+    margin-top: 24px;
+}
